@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".Share">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="49dp"
+        android:padding="10dp"
+        android:src="@drawable/vectorfollow"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Thanks for Your Support"/>
+
+
+
+    <TextView
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Please"/>
+    <TextView
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Share us On"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/idinstagram"
+            android:background="#FFFFFF"
+            android:src="@drawable/insta"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/idfacebook"
+            android:background="#FFFFFF"
+            android:src="@drawable/facebook"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/idtwitter"
+            android:layout_margin="5dp"
+
+            android:src="@drawable/twitter"
+            android:background="#FFFFFF"
+
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/idlinkedid"
+            android:src="@drawable/wa"
+            android:layout_margin="5dp"
+
+            android:background="#FFFFFF"
+
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/idSkype"
+            android:src="@drawable/gp"
+            android:background="#FFFFFF"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

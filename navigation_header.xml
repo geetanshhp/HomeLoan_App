@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#292075"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:padding="16dp"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/newicon"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

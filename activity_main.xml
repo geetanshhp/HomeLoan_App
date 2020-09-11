@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolBar"
+        android:layout_weight="0"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+
+    <ViewFlipper
+
+        android:layout_width="match_parent"
+        android:id="@+id/idviewflipper"
+        android:layout_centerInParent="true"
+        android:layout_height="200dp">
+    </ViewFlipper>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/idhomeloan"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10sp"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="150dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:alpha=".85"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/punjabid"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/photo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="Home Loans "
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:typeface="serif" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+android:id="@+id/idemical"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10sp"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="150dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:alpha=".85"
+
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/klc"
+                android:layout_margin="20dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp" />
+            <TextView
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Emi Calculator"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/ideligibility"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10sp"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="150dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:alpha=".85"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/elgibilbe"
+                android:layout_margin="20dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp" />
+            <TextView
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Eligibility"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/idwhywe"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10sp"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="150dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:alpha=".85"
+
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/why"
+                android:layout_margin="20dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp" />
+            <TextView
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Why We"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/idapply"
+        android:clickable="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10sp"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        android:layout_width="355dp"
+        android:layout_height="150dp" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:alpha=".85"
+
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/apply"
+                android:layout_margin="20dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Fresh loan/BT "
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/sharelink"
+           android:padding="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:src="@drawable/apna"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="#292075">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="#292075">
+    </View>
+
+
+
+
+</LinearLayout>
+    </ScrollView>

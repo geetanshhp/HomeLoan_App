@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Patner">
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Be Our Patner"
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="210dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="210dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        app:cardElevation="3dp"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:typeface="serif"
+                android:id="@+id/idtext1"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:padding="6dp"
+                    android:src="@drawable/newarrow3"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:textSize="14dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/message"
+                    android:typeface="serif"
+                    android:id="@+id/idtext2"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+<LinearLayout
+    android:layout_marginLeft="29dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:id="@+id/floating"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:src="@drawable/makecall"
+                app:backgroundTint="#ffffff"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:id="@+id/floating1"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:src="@drawable/contact"
+                app:backgroundTint="#ffffff"
+                android:layout_height="wrap_content" />
+</LinearLayout>
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="210dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:background="#ffffff">
+            </View>
+
+            <View
+                android:layout_height="2dp"
+                android:layout_width="210dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:background="#ffffff">
+            </View>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>

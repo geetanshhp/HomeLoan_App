@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Contact_Us">
+
+    <TextView
+
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="We Love to Hear from You"
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        app:cardElevation="3dp"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:typeface="serif"
+                android:textSize="14dp"
+                android:layout_margin="12dp"
+                android:layout_width="match_parent"
+                android:text="We're here to answer any questions you may have about Home loan or any services that we offer.\nReach out to us and we'll respond as soon as we can."
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/person"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:typeface="serif"
+                android:id="@+id/idname"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/makecall"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:id="@+id/idphone1"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/contact"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:id="@+id/idphone2"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/mail"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:id="@+id/idemail"
+                    android:layout_gravity="center"
+                    android:layout_margin="7dp"
+                    android:textSize="14dp"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:typeface="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="22dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:id="@+id/floatingcall1"
+                android:layout_margin="16dp"
+                android:src="@drawable/makecall"
+                app:backgroundTint="#ffffff"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:id="@+id/floatingcall2"
+                android:layout_margin="16dp"
+                android:src="@drawable/contact"
+               app:backgroundTint="#ffffff"
+                android:layout_height="wrap_content" />
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/floatingShare"
+                    android:layout_margin="16dp"
+                    android:src="@drawable/apna"
+                    app:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
